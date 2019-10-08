@@ -126,12 +126,12 @@ function packing() {
          console.log("your have "+ points +" points");
     alert("you pack up your stuff as fast as you can and rush out the door to your car and take off down the road in to the moonless night.");
     alert("a few minutes into your drive you see headlights in the distance through your rearview mirror.");
-    var speed = confirm("you are positive that the headlights behing to the man that mysteriously knocked on your door. do you speed up?");
+    var speed = confirm("you are positive that the headlights belong to the man that mysteriously knocked on your door. do you speed up?");
 
     if(speed){
         points++;
          console.log("your have "+ points +" points");
-        alert("your spedometer reads over 100Mph as you tear down the road with not a car in sight except the headlights behind you that are drawing closer...");
+        alert("your spedometer reads over 100Mph as you tear down the road with no car in sight except the headlights behind you that are drawing closer...");
        var tooFast = confirm("there is a sharp turn coming up. 'speed up' or 'slow down'. if you slow down the man is sure to catch you... ");
        if (tooFast){
         points++;
@@ -150,7 +150,7 @@ function packing() {
         alert("unfortunately, his car ends up coming right for you and rams into you with the force of 1000 horses.");
         alert("you wake up in a prison hospital in siberia and find out that the United States government has disowned you and denied any knowledge of your involvement within the CIA.");
         alert("it is now up to you to escape your captors, return to America and kill everyone that did you wrong.");
-       var shoot = confirm("Well done. You made it thhe furthest in the game. Congratulations.......RESTART? IF YOU WANT TO SEE YOUR POINTS PLEASE SELECT CANCEL AND EXIT GAME");
+       var shoot = confirm("Well done. You made it the furthest in the game. Congratulations.......RESTART? IF YOU WANT TO SEE YOUR POINTS PLEASE SELECT CANCEL AND EXIT GAME");
         if(shoot){
             points++;
          console.log("your have "+ points +" points");
